@@ -115,6 +115,9 @@ CopyImage.BackgroundTransparency = 1.000
 CopyImage.Position = UDim2.new(0.409999996, 0, 0.423807591, 0)
 CopyImage.Size = UDim2.new(0, 25, 0, 25)
 CopyImage.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage.MouseButton1Down:connect(function()
+setclipboard(Accessorie2.Text)
+end)
 
 Accessorie2.Name = "Accessorie2"
 Accessorie2.Parent = Link2
@@ -123,7 +126,7 @@ Accessorie2.BackgroundTransparency = 1.000
 Accessorie2.Position = UDim2.new(0.00999999978, 0, 0.431807578, 0)
 Accessorie2.Size = UDim2.new(0, 200, 0, 20)
 Accessorie2.Font = Enum.Font.Gotham
-Accessorie2.Text = "roblox.com/catalog/5971691715"
+Accessorie2.Text = "roblox.com/catalog/48474313"
 Accessorie2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie2.TextSize = 13.000
 Accessorie2.TextWrapped = true
@@ -164,7 +167,7 @@ Accessorie3.BackgroundTransparency = 1.000
 Accessorie3.Position = UDim2.new(0.00999999978, 0, 0.535028219, 0)
 Accessorie3.Size = UDim2.new(0, 200, 0, 20)
 Accessorie3.Font = Enum.Font.Gotham
-Accessorie3.Text = "roblox.com/catalog/5971691715"
+Accessorie3.Text = "roblox.com/catalog/451220849"
 Accessorie3.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie3.TextSize = 13.000
 Accessorie3.TextWrapped = true
@@ -176,6 +179,9 @@ CopyImage_3.BackgroundTransparency = 1.000
 CopyImage_3.Position = UDim2.new(0.409999996, 0, 0.527028203, 0)
 CopyImage_3.Size = UDim2.new(0, 25, 0, 25)
 CopyImage_3.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_3.MouseButton1Down:connect(function()
+setclipboard(Accessorie3.Text)
+end)
 
 Link4.Name = "Link4"
 Link4.Parent = MainFrame
@@ -187,7 +193,7 @@ Accessorie4.BackgroundTransparency = 1.000
 Accessorie4.Position = UDim2.new(0.00999999978, 0, 0.638429999, 0)
 Accessorie4.Size = UDim2.new(0, 200, 0, 20)
 Accessorie4.Font = Enum.Font.Gotham
-Accessorie4.Text = "roblox.com/catalog/5971691715"
+Accessorie4.Text = "https://www.roblox.com/catalog/48474294"
 Accessorie4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie4.TextSize = 13.000
 Accessorie4.TextWrapped = true
@@ -199,6 +205,9 @@ CopyImage_4.BackgroundTransparency = 1.000
 CopyImage_4.Position = UDim2.new(0.409999996, 0, 0.630429983, 0)
 CopyImage_4.Size = UDim2.new(0, 25, 0, 25)
 CopyImage_4.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_4.MouseButton1Down:connect(function()
+setclipboard(Accessorie4.Text)
+end)
 
 Link5.Name = "Link5"
 Link5.Parent = MainFrame
@@ -210,7 +219,7 @@ Accessorie5.BackgroundTransparency = 1.000
 Accessorie5.Position = UDim2.new(0.00999999978, 0, 0.74183172, 0)
 Accessorie5.Size = UDim2.new(0, 200, 0, 20)
 Accessorie5.Font = Enum.Font.Gotham
-Accessorie5.Text = "roblox.com/catalog/5971691715"
+Accessorie5.Text = "roblox.com/catalog/62724852"
 Accessorie5.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie5.TextSize = 13.000
 Accessorie5.TextWrapped = true
@@ -222,6 +231,9 @@ CopyImage_5.BackgroundTransparency = 1.000
 CopyImage_5.Position = UDim2.new(0.409999996, 0, 0.733831704, 0)
 CopyImage_5.Size = UDim2.new(0, 25, 0, 25)
 CopyImage_5.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_5.MouseButton1Down:connect(function()
+setclipboard(Accessorie5.Text)
+end)
 
 Link6.Name = "Link6"
 Link6.Parent = MainFrame
@@ -233,7 +245,7 @@ Accessorie6.BackgroundTransparency = 1.000
 Accessorie6.Position = UDim2.new(0.537999988, 0, 0.328405797, 0)
 Accessorie6.Size = UDim2.new(0, 200, 0, 20)
 Accessorie6.Font = Enum.Font.Gotham
-Accessorie6.Text = "roblox.com/catalog/5971691715"
+Accessorie6.Text = "roblox.com/catalog/63690008"
 Accessorie6.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie6.TextSize = 13.000
 Accessorie6.TextWrapped = true
@@ -245,6 +257,9 @@ CopyImage_6.BackgroundTransparency = 1.000
 CopyImage_6.Position = UDim2.new(0.937999964, 0, 0.320405811, 0)
 CopyImage_6.Size = UDim2.new(0, 25, 0, 25)
 CopyImage_6.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_6.MouseButton1Down:connect(function()
+setclipboard(Accessorie6.Text)
+end)
 
 Link7.Name = "Link7"
 Link7.Parent = MainFrame
@@ -256,7 +271,7 @@ Accessorie7.BackgroundTransparency = 1.000
 Accessorie7.Position = UDim2.new(0.537999988, 0, 0.436739117, 0)
 Accessorie7.Size = UDim2.new(0, 200, 0, 20)
 Accessorie7.Font = Enum.Font.Gotham
-Accessorie7.Text = "roblox.com/catalog/5971691715"
+Accessorie7.Text = "roblox.com/catalog/62234425"
 Accessorie7.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie7.TextSize = 13.000
 Accessorie7.TextWrapped = true
@@ -268,6 +283,9 @@ CopyImage_7.BackgroundTransparency = 1.000
 CopyImage_7.Position = UDim2.new(0.937999964, 0, 0.42873913, 0)
 CopyImage_7.Size = UDim2.new(0, 25, 0, 25)
 CopyImage_7.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_7.MouseButton1Down:connect(function()
+setclipboard(Accessorie7.Text)
+end)
 
 Link8.Name = "Link8"
 Link8.Parent = MainFrame
@@ -279,7 +297,7 @@ Accessorie8.BackgroundTransparency = 1.000
 Accessorie8.Position = UDim2.new(0.537999988, 0, 0.535028219, 0)
 Accessorie8.Size = UDim2.new(0, 200, 0, 20)
 Accessorie8.Font = Enum.Font.Gotham
-Accessorie8.Text = "roblox.com/catalog/5971691715"
+Accessorie8.Text = "roblox.com"
 Accessorie8.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie8.TextSize = 13.000
 Accessorie8.TextWrapped = true
@@ -302,7 +320,7 @@ Accessorie9.BackgroundTransparency = 1.000
 Accessorie9.Position = UDim2.new(0.537999988, 0, 0.635028243, 0)
 Accessorie9.Size = UDim2.new(0, 200, 0, 20)
 Accessorie9.Font = Enum.Font.Gotham
-Accessorie9.Text = "roblox.com/catalog/5971691715"
+Accessorie9.Text = "roblox.com"
 Accessorie9.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie9.TextSize = 13.000
 Accessorie9.TextWrapped = true
@@ -325,7 +343,7 @@ Accessorie10.BackgroundTransparency = 1.000
 Accessorie10.Position = UDim2.new(0.537999988, 0, 0.73919493, 0)
 Accessorie10.Size = UDim2.new(0, 200, 0, 20)
 Accessorie10.Font = Enum.Font.Gotham
-Accessorie10.Text = "roblox.com/catalog/5971691715"
+Accessorie10.Text = "roblox.com"
 Accessorie10.TextColor3 = Color3.fromRGB(255, 255, 255)
 Accessorie10.TextSize = 13.000
 Accessorie10.TextWrapped = true
