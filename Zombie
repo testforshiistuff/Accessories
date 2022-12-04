@@ -1,0 +1,402 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local MainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local InfoBar = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local VHubImage = Instance.new("ImageLabel")
+local VHubAndSection = Instance.new("TextLabel")
+local Line1 = Instance.new("Frame")
+local InfoText = Instance.new("TextLabel")
+local Link2 = Instance.new("Folder")
+local CopyImage = Instance.new("ImageButton")
+local Accessorie2 = Instance.new("TextLabel")
+local Link1 = Instance.new("Folder")
+local Accessorie1 = Instance.new("TextLabel")
+local CopyImage_2 = Instance.new("ImageButton")
+local Link3 = Instance.new("Folder")
+local Accessorie3 = Instance.new("TextLabel")
+local CopyImage_3 = Instance.new("ImageButton")
+local Link4 = Instance.new("Folder")
+local Accessorie4 = Instance.new("TextLabel")
+local CopyImage_4 = Instance.new("ImageButton")
+local Link5 = Instance.new("Folder")
+local Accessorie5 = Instance.new("TextLabel")
+local CopyImage_5 = Instance.new("ImageButton")
+local Link6 = Instance.new("Folder")
+local Accessorie6 = Instance.new("TextLabel")
+local CopyImage_6 = Instance.new("ImageButton")
+local Link7 = Instance.new("Folder")
+local Accessorie7 = Instance.new("TextLabel")
+local CopyImage_7 = Instance.new("ImageButton")
+local Link8 = Instance.new("Folder")
+local Accessorie8 = Instance.new("TextLabel")
+local CopyImage_8 = Instance.new("ImageButton")
+local Link9 = Instance.new("Folder")
+local Accessorie9 = Instance.new("TextLabel")
+local CopyImage_9 = Instance.new("ImageButton")
+local Link10 = Instance.new("Folder")
+local Accessorie10 = Instance.new("TextLabel")
+local CopyImage_10 = Instance.new("ImageButton")
+local Execute = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Cancel = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+
+--Properties:
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = game:GetService("CoreGui").VHubCoreScreen.DragScreen
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(36, 37, 39)
+MainFrame.LayoutOrder = 999999999
+MainFrame.Position = UDim2.new(0.148132578, 0, 0.250319302, 0)
+MainFrame.Size = UDim2.new(0, 500, 0, 240)
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = MainFrame
+
+InfoBar.Name = "InfoBar"
+InfoBar.Parent = MainFrame
+InfoBar.BackgroundColor3 = Color3.fromRGB(26, 27, 29)
+InfoBar.Size = UDim2.new(0, 500, 0, 30)
+
+UICorner_2.Parent = InfoBar
+
+VHubImage.Name = "VHubImage"
+VHubImage.Parent = InfoBar
+VHubImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubImage.BackgroundTransparency = 1.000
+VHubImage.Size = UDim2.new(0, 30, 0, 30)
+VHubImage.Image = "rbxassetid://9408318893"
+
+VHubAndSection.Name = "VHubAndSection"
+VHubAndSection.Parent = InfoBar
+VHubAndSection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+VHubAndSection.BackgroundTransparency = 1.000
+VHubAndSection.Position = UDim2.new(0.0586666688, 0, 0, 0)
+VHubAndSection.Size = UDim2.new(0, 164, 0, 30)
+VHubAndSection.Font = Enum.Font.GothamBold
+VHubAndSection.Text = "VHub | Accessories"
+VHubAndSection.TextColor3 = Color3.fromRGB(255, 255, 255)
+VHubAndSection.TextSize = 14.000
+VHubAndSection.TextXAlignment = Enum.TextXAlignment.Left
+
+Line1.Name = "Line1"
+Line1.Parent = MainFrame
+Line1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line1.BorderSizePixel = 0
+Line1.Position = UDim2.new(0, 0, 0.111111112, 0)
+Line1.Size = UDim2.new(0, 500, 0, 1)
+
+InfoText.Name = "InfoText"
+InfoText.Parent = MainFrame
+InfoText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfoText.BackgroundTransparency = 1.000
+InfoText.Position = UDim2.new(0.200000003, 0, 0.114814818, 0)
+InfoText.Size = UDim2.new(0, 300, 0, 50)
+InfoText.Font = Enum.Font.GothamMedium
+InfoText.Text = "Accessories That You Need To Execute This Script"
+InfoText.TextColor3 = Color3.fromRGB(255, 255, 255)
+InfoText.TextSize = 17.000
+InfoText.TextWrapped = true
+
+Link2.Name = "Link2"
+Link2.Parent = MainFrame
+
+CopyImage.Name = "CopyImage"
+CopyImage.Parent = Link2
+CopyImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage.BackgroundTransparency = 1.000
+CopyImage.Position = UDim2.new(0.409999996, 0, 0.423807591, 0)
+CopyImage.Size = UDim2.new(0, 25, 0, 25)
+CopyImage.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage.MouseButton1Down:connect(function()
+setclipboard(Accessorie2.Text)
+end)
+
+Accessorie2.Name = "Accessorie2"
+Accessorie2.Parent = Link2
+Accessorie2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie2.BackgroundTransparency = 1.000
+Accessorie2.Position = UDim2.new(0.00999999978, 0, 0.431807578, 0)
+Accessorie2.Size = UDim2.new(0, 200, 0, 20)
+Accessorie2.Font = Enum.Font.Gotham
+Accessorie2.Text = "roblox.com/catalog/451220849"
+Accessorie2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie2.TextSize = 13.000
+Accessorie2.TextWrapped = true
+
+Link1.Name = "Link1"
+Link1.Parent = MainFrame
+
+Accessorie1.Name = "Accessorie1"
+Accessorie1.Parent = Link1
+Accessorie1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie1.BackgroundTransparency = 1.000
+Accessorie1.Position = UDim2.new(0.00999999978, 0, 0.328405797, 0)
+Accessorie1.Size = UDim2.new(0, 200, 0, 20)
+Accessorie1.Font = Enum.Font.Gotham
+Accessorie1.Text = "roblox.com/catalog/617605556"
+Accessorie1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie1.TextSize = 13.000
+Accessorie1.TextWrapped = true
+
+CopyImage_2.Name = "CopyImage"
+CopyImage_2.Parent = Link1
+CopyImage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_2.BackgroundTransparency = 1.000
+CopyImage_2.Position = UDim2.new(0.409999996, 0, 0.320405811, 0)
+CopyImage_2.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_2.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_2.MouseButton1Down:connect(function()
+setclipboard(Accessorie1.Text)
+end)
+
+Link3.Name = "Link3"
+Link3.Parent = MainFrame
+
+Accessorie3.Name = "Accessorie3"
+Accessorie3.Parent = Link3
+Accessorie3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie3.BackgroundTransparency = 1.000
+Accessorie3.Position = UDim2.new(0.00999999978, 0, 0.535028219, 0)
+Accessorie3.Size = UDim2.new(0, 200, 0, 20)
+Accessorie3.Font = Enum.Font.Gotham
+Accessorie3.Text = "roblox.com/catalog/48474294"
+Accessorie3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie3.TextSize = 13.000
+Accessorie3.TextWrapped = true
+
+CopyImage_3.Name = "CopyImage"
+CopyImage_3.Parent = Link3
+CopyImage_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_3.BackgroundTransparency = 1.000
+CopyImage_3.Position = UDim2.new(0.409999996, 0, 0.527028203, 0)
+CopyImage_3.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_3.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_3.MouseButton1Down:connect(function()
+setclipboard(Accessorie3.Text)
+end)
+
+Link4.Name = "Link4"
+Link4.Parent = MainFrame
+
+Accessorie4.Name = "Accessorie4"
+Accessorie4.Parent = Link4
+Accessorie4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie4.BackgroundTransparency = 1.000
+Accessorie4.Position = UDim2.new(0.00999999978, 0, 0.638429999, 0)
+Accessorie4.Size = UDim2.new(0, 200, 0, 20)
+Accessorie4.Font = Enum.Font.Gotham
+Accessorie4.Text = "roblox.com/catalog/62724852"
+Accessorie4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie4.TextSize = 13.000
+Accessorie4.TextWrapped = true
+
+CopyImage_4.Name = "CopyImage"
+CopyImage_4.Parent = Link4
+CopyImage_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_4.BackgroundTransparency = 1.000
+CopyImage_4.Position = UDim2.new(0.409999996, 0, 0.630429983, 0)
+CopyImage_4.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_4.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_4.MouseButton1Down:connect(function()
+setclipboard(Accessorie4.Text)
+end)
+
+Link5.Name = "Link5"
+Link5.Parent = MainFrame
+
+Accessorie5.Name = "Accessorie5"
+Accessorie5.Parent = Link5
+Accessorie5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie5.BackgroundTransparency = 1.000
+Accessorie5.Position = UDim2.new(0.00999999978, 0, 0.74183172, 0)
+Accessorie5.Size = UDim2.new(0, 200, 0, 20)
+Accessorie5.Font = Enum.Font.Gotham
+Accessorie5.Text = "roblox.com/catalog/63690008"
+Accessorie5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie5.TextSize = 13.000
+Accessorie5.TextWrapped = true
+
+CopyImage_5.Name = "CopyImage"
+CopyImage_5.Parent = Link5
+CopyImage_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_5.BackgroundTransparency = 1.000
+CopyImage_5.Position = UDim2.new(0.409999996, 0, 0.733831704, 0)
+CopyImage_5.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_5.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_5.MouseButton1Down:connect(function()
+setclipboard(Accessorie5.Text)
+end)
+
+Link6.Name = "Link6"
+Link6.Parent = MainFrame
+
+Accessorie6.Name = "Accessorie6"
+Accessorie6.Parent = Link6
+Accessorie6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie6.BackgroundTransparency = 1.000
+Accessorie6.Position = UDim2.new(0.537999988, 0, 0.328405797, 0)
+Accessorie6.Size = UDim2.new(0, 200, 0, 20)
+Accessorie6.Font = Enum.Font.Gotham
+Accessorie6.Text = "roblox.com/catalog/62234425"
+Accessorie6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie6.TextSize = 13.000
+Accessorie6.TextWrapped = true
+
+CopyImage_6.Name = "CopyImage"
+CopyImage_6.Parent = Link6
+CopyImage_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_6.BackgroundTransparency = 1.000
+CopyImage_6.Position = UDim2.new(0.937999964, 0, 0.320405811, 0)
+CopyImage_6.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_6.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_6.MouseButton1Down:connect(function()
+setclipboard(Accessorie6.Text)
+end)
+
+Link7.Name = "Link7"
+Link7.Parent = MainFrame
+
+Accessorie7.Name = "Accessorie7"
+Accessorie7.Parent = Link7
+Accessorie7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie7.BackgroundTransparency = 1.000
+Accessorie7.Position = UDim2.new(0.537999988, 0, 0.436739117, 0)
+Accessorie7.Size = UDim2.new(0, 200, 0, 20)
+Accessorie7.Font = Enum.Font.Gotham
+Accessorie7.Text = "roblox.com/catalog/376548738"
+Accessorie7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie7.TextSize = 13.000
+Accessorie7.TextWrapped = true
+
+CopyImage_7.Name = "CopyImage"
+CopyImage_7.Parent = Link7
+CopyImage_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_7.BackgroundTransparency = 1.000
+CopyImage_7.Position = UDim2.new(0.937999964, 0, 0.42873913, 0)
+CopyImage_7.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_7.Image = "http://www.roblox.com/asset/?id=11547320438"
+CopyImage_7.MouseButton1Down:connect(function()
+setclipboard(Accessorie7.Text)
+end)
+
+Link8.Name = "Link8"
+Link8.Parent = MainFrame
+
+Accessorie8.Name = "Accessorie8"
+Accessorie8.Parent = Link8
+Accessorie8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie8.BackgroundTransparency = 1.000
+Accessorie8.Position = UDim2.new(0.537999988, 0, 0.535028219, 0)
+Accessorie8.Size = UDim2.new(0, 200, 0, 20)
+Accessorie8.Font = Enum.Font.Gotham
+Accessorie8.Text = "roblox.com"
+Accessorie8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie8.TextSize = 13.000
+Accessorie8.TextWrapped = true
+
+CopyImage_8.Name = "CopyImage"
+CopyImage_8.Parent = Link8
+CopyImage_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_8.BackgroundTransparency = 1.000
+CopyImage_8.Position = UDim2.new(0.937999964, 0, 0.527028203, 0)
+CopyImage_8.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_8.Image = "http://www.roblox.com/asset/?id=11547320438"
+
+Link9.Name = "Link9"
+Link9.Parent = MainFrame
+
+Accessorie9.Name = "Accessorie9"
+Accessorie9.Parent = Link9
+Accessorie9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie9.BackgroundTransparency = 1.000
+Accessorie9.Position = UDim2.new(0.537999988, 0, 0.635028243, 0)
+Accessorie9.Size = UDim2.new(0, 200, 0, 20)
+Accessorie9.Font = Enum.Font.Gotham
+Accessorie9.Text = "roblox.com"
+Accessorie9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie9.TextSize = 13.000
+Accessorie9.TextWrapped = true
+
+CopyImage_9.Name = "CopyImage"
+CopyImage_9.Parent = Link9
+CopyImage_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_9.BackgroundTransparency = 1.000
+CopyImage_9.Position = UDim2.new(0.937999964, 0, 0.627028227, 0)
+CopyImage_9.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_9.Image = "http://www.roblox.com/asset/?id=11547320438"
+
+Link10.Name = "Link10"
+Link10.Parent = MainFrame
+
+Accessorie10.Name = "Accessorie10"
+Accessorie10.Parent = Link10
+Accessorie10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie10.BackgroundTransparency = 1.000
+Accessorie10.Position = UDim2.new(0.537999988, 0, 0.73919493, 0)
+Accessorie10.Size = UDim2.new(0, 200, 0, 20)
+Accessorie10.Font = Enum.Font.Gotham
+Accessorie10.Text = "roblox.com"
+Accessorie10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Accessorie10.TextSize = 13.000
+Accessorie10.TextWrapped = true
+
+CopyImage_10.Name = "CopyImage"
+CopyImage_10.Parent = Link10
+CopyImage_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CopyImage_10.BackgroundTransparency = 1.000
+CopyImage_10.Position = UDim2.new(0.937999964, 0, 0.731194913, 0)
+CopyImage_10.Size = UDim2.new(0, 25, 0, 25)
+CopyImage_10.Image = "http://www.roblox.com/asset/?id=11547320438"
+
+Execute.Name = "Execute"
+Execute.Parent = MainFrame
+Execute.BackgroundColor3 = Color3.fromRGB(31, 32, 34)
+Execute.Position = UDim2.new(0.772000015, 0, 0.850833356, 0)
+Execute.Size = UDim2.new(0, 100, 0, 30)
+Execute.Font = Enum.Font.GothamMedium
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 18.000
+Execute.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+loadstring(game:HttpGet(('https://pastebin.com/raw/r0p74xjX'),true))()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/someunknowndude/18f1d979ad9a25ad69064be75f55f735/raw/dc36f1e9ad906a7434bd77bcd0ce8218fb5f4d88/zombie.lua"))()
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Script:";
+	Text = "Successfully Executed Zombie!";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
+
+wait(3)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Notice!";
+	Text = "If You Can't Move, You May Need A Keyboard.";
+	Icon = "rbxthumb://type=Asset&id=9408318893&w=150&h=150"})
+Duration = 16;
+end)
+
+UICorner_3.Parent = Execute
+
+Cancel.Name = "Cancel"
+Cancel.Parent = MainFrame
+Cancel.BackgroundColor3 = Color3.fromRGB(31, 32, 34)
+Cancel.Position = UDim2.new(0.558000088, 0, 0.847500026, 0)
+Cancel.Size = UDim2.new(0, 100, 0, 30)
+Cancel.Font = Enum.Font.GothamMedium
+Cancel.Text = "Cancel"
+Cancel.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cancel.TextSize = 18.000
+Cancel.MouseButton1Down:connect(function()
+MainFrame:Destroy()
+end)
+
+UICorner_4.Parent = Cancel
